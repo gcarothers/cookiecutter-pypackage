@@ -3,9 +3,11 @@
 	"email": "gavin@carothers.name",
 	"github_username": "gcarothers",
 	"project_name": "Python Project",
-	"repo_name": "project",
+	"project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
 	"project_short_description": "Really shold have a nice description",
-	"release_date": "2015-01-01",
-	"year": "2015",
-	"version": "0.1.0"
+	"release_date": "2016-1-22",
+	"pypi_username": "{{ cookiecutter.github_username }}",
+	"year": "2016",
+	"version": "0.1.0",
+	"use_pypi_deployment_with_travis": "y"
 }
